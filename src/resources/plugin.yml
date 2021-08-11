@@ -1,0 +1,7 @@
+name: OlympaBuildeur
+version: '@plugin_version@'
+api-version: 1.16
+depend: [OlympaCore]
+authors: [Tristiisch]
+main: fr.olympa.buildeur.OlympaBuildeur
+website: https://gitlab.com/olympa/olympabuildeur
