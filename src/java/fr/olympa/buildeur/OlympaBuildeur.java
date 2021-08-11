@@ -20,6 +20,7 @@ public class OlympaBuildeur extends OlympaAPIPlugin {
 		super.onEnable();
 		OlympaCore.getInstance().setOlympaServer(OlympaServer.BUILDEUR);
 		OlympaAPIPermissionsSpigot.GAMEMODE_COMMAND.setMinGroup(OlympaGroup.BUILDER);
+		OlympaAPIPermissionsSpigot.GAMEMODE_COMMAND_CREATIVE.setMinGroup(OlympaGroup.BUILDER);
 		sendMessage("&2%s&a (%s) est activé.", getDescription().getName(), getDescription().getVersion());
 	}
 
