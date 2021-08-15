@@ -44,6 +44,8 @@ public class OlympaBuildeur extends OlympaAPIPlugin {
 		buildeurGroup.setRuntimePermission("minecraft.command.gamemode", true);
 		buildeurGroup.setRuntimePermission("multiverse.*", true);
 		buildeurGroup.setRuntimePermission("gobrush.*", true);
+		buildeurGroup.setRuntimePermission("voxelsniper.sniper", true);
+		buildeurGroup.setRuntimePermission("voxelsniper.brush.*", true);
 		OlympaGroup respBuildeurGroup = OlympaGroup.RESP_BUILDER;
 		respBuildeurGroup.setRuntimePermission("worldguard.*", true);
 		respBuildeurGroup.setRuntimePermission("-multiverse.core.remove", false);
